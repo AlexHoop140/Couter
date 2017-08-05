@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
-
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -9,20 +7,18 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteY="8dp"
-        tools:layout_editor_absoluteX="8dp"
         tools:context="com.example.android.couter.MainActivity">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_weight="0.5"
             android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1.12"
+                android:layout_weight="1"
                 android:orientation="vertical"
                 android:padding="16dp">
 
@@ -49,7 +45,8 @@
                     android:layout_marginBottom="5dp"
                     android:paddingLeft="30dp"
                     android:paddingRight="30dp"
-                    android:text="+3 POINTS" />
+                    android:text="+3 POINTS"
+                    android:layout_gravity="center_horizontal"/>
 
                 <Button
                     android:layout_width="wrap_content"
@@ -57,7 +54,8 @@
                     android:layout_marginBottom="5dp"
                     android:paddingLeft="30dp"
                     android:paddingRight="30dp"
-                    android:text="+2 POINTS"/>
+                    android:text="+2 POINTS"
+                    android:layout_gravity="center_horizontal"/>
 
                 <Button
                     android:layout_width="wrap_content"
@@ -65,7 +63,8 @@
                     android:layout_marginBottom="5dp"
                     android:paddingLeft="30dp"
                     android:paddingRight="25dp"
-                    android:text="FREE SHOT"/>
+                    android:text="FREE SHOT"
+                    android:layout_gravity="center_horizontal"/>
 
             </LinearLayout>
 
@@ -77,7 +76,7 @@
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1.23"
+                android:layout_weight="1"
                 android:orientation="vertical"
                 android:padding="16dp">
 
@@ -132,7 +131,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0"
             android:orientation="vertical"
             android:layout_margin="20dp"
             android:padding="10dp">
@@ -141,7 +139,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:gravity="center_horizontal"
                 android:text="RESET"
                 android:textSize="20sp"
                 android:padding="10dp"
