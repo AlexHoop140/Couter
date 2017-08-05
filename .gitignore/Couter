@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout
-        android:orientation="vertical"
-        android:layout_width="395dp"
-        android:layout_height="587dp"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="0dp"
+
+
+    <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
-        tools:context="com.example.android.couter.MainActivity">>
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:context="com.example.android.couter.MainActivity">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -20,7 +22,7 @@
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="1.12"
                 android:orientation="vertical"
                 android:padding="16dp">
 
@@ -69,8 +71,8 @@
 
             <View
                 android:layout_width="2dp"
-                android:layout_height="match_parent"
-                android:background="#E91E63" />
+                android:layout_height="wrap_content"
+                android:background="#26C6DA" />
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -127,20 +129,27 @@
 
         </LinearLayout>
 
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="0.4">
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:padding="10dp">
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_alignParentBottom="true"
-                android:layout_margin="30dp"
-                android:text="RESET"/>
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="RESET"
+                android:textSize="20sp"
+                android:padding="10dp"
 
-        </RelativeLayout>
+                />
+
+        </LinearLayout>
+
 </LinearLayout>
 
 
